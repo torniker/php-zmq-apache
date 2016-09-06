@@ -53,8 +53,7 @@ RUN sudo service supervisor stop \
 ## RUN chmod u=rwx /opt/bin/nginx-start.sh
 #
 ##RUN mkdir -p /vagrant
-##VOLUME ["/vagrant"]
-#
+VOLUME ["/vagrant"]
 ## PORTS
-#EXPOSE 80
+EXPOSE 80
 #EXPOSE 443
